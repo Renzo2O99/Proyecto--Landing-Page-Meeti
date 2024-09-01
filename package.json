@@ -1,0 +1,30 @@
+{
+  "name": "proyecto--landing-page-meeti",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "cs": "sass --watch src/scss/:build/css/",
+    "psb": "purgecss --css build/css/styles.css -con index.html -o build/css/app.css"
+  },
+  "author": "Renzo 2O99",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^5.3.3",
+    "glob": "^11.0.0",
+    "gulp": "^5.0.0",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^10.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-terser": "^2.1.0",
+    "postcss": "^8.4.42",
+    "sass": "^1.77.8",
+    "sharp": "^0.33.5"
+  },
+  "dependencies": {
+    "postcss-merge-rules": "^7.0.3"
+  }
+}

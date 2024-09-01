@@ -1,0 +1,28 @@
+// Reescribir código de Bootstrap:
+$red: #f34f51;
+$green: #0098ae;
+$dark: #212121;
+$gray: #b5b5b5;
+
+// Variables de Bootstrap
+
+// Colores
+$primary: $red;
+$secondary: $green;
+$dark: $dark;
+
+// Tipografía
+$display-font-weight: 900;
+$headings-font-weight: 700;
+
+// Cards
+$card-border-color: transparent;
+
+// Nav Links
+$nav-link-padding-x: 0;
+$nav-link-font-size: 1.6rem;
+$nav-link-color: $gray;
+$nav-link-hover-color: darken($gray, 10%);
+
+// Importación de Bootstrap
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";

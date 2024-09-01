@@ -1,0 +1,27 @@
+@use "../../base/mixins" as mix;
+
+.footer {
+    .fila-1 {
+        p {
+            font-size: 1.25rem;
+
+            @include mix.hover {
+                font-size: 1.25rem;
+            }
+        }
+    }
+
+    .fila-2 {
+        p {
+            font-size: 2rem;
+
+            @include mix.hover {
+                font-size: 2rem;
+            }
+        }
+    }
+
+    .meeti {
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,13 @@
+@use "../../base/mixins" as mix;
+
+.events {
+    .card {
+        @include mix.hover {
+            cursor: pointer;
+        }
+
+        img {
+            border-radius: 0.5rem;
+        }
+    }
+}

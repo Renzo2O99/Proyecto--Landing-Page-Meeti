@@ -1,0 +1,24 @@
+@use "variables" as v;
+
+html {
+    box-sizing: border-box;
+    scroll-padding-top: 0rem;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+body {
+    font-optical-sizing: auto;
+
+    &.overflow-hidden {
+        overflow: hidden;
+    }
+}
+a {
+    text-decoration: none;
+}
+.logo {
+    width: 10rem;
+}
